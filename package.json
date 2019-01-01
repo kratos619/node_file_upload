@@ -1,0 +1,22 @@
+{
+  "name": "nodeuploadwithmulter",
+  "version": "1.0.0",
+  "description": "upload img with multer",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Gaurav Palaspagar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.4.1",
+    "multer": "^1.4.1",
+    "multer-gridfs-storage": "^3.2.3"
+  }
+}
